@@ -1,4 +1,4 @@
-package com.natixis.backend.service;
+package com.ecommerce.backend.service;
 
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

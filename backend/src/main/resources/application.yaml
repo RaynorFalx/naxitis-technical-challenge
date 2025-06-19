@@ -1,3 +1,31 @@
+spring:
+  application:
+    name: E-Commerce Backend
+  datasource:
+    url: jdbc:h2:mem:ecommerce-store;INIT=CREATE SCHEMA IF NOT EXISTS ECOMMERCE;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        hbm2ddl:
+          auto: update
+        default_schema: ECOMMERCE
+    defer-datasource-initialization: true
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+      settings:
+        trace: false
+        web-allow-others: false
+
 logging:
   level:
     org:

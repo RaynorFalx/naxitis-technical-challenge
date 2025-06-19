@@ -1,4 +1,4 @@
-package com.natixis.backend.config;
+package com.ecommerce.backend.utils;
 
 import org.springframework.security.core.GrantedAuthority;
 

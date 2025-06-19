@@ -1,4 +1,4 @@
-package com.natixis.backend.security;
+package com.ecommerce.backend.security;
 
 import org.springframework.security.authentication.AuthenticationProvider;
 import org.springframework.security.authentication.BadCredentialsException;
