@@ -1,6 +1,7 @@
-package com.natixis.backend.config;
+package com.ecommerce.backend.config;
 
-import com.natixis.backend.service.UserService;
+import com.ecommerce.backend.service.UserService;
+import com.ecommerce.backend.utils.Role;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
